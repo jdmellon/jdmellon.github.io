@@ -1,0 +1,90 @@
+/* Universal  */
+
+body {font-family:Lato,sans-serif;}
+
+.container {max-width: 960px; margin: 0 auto;}
+
+footer {float:left; padding:10px; color:crimson;}
+
+footer li {display: inline;  padding: 30px; color:crimson; border-right: solid 1px;}
+
+/* <------------------------> */
+
+/* Navigation */
+
+nav { }
+
+.menu {background: black; padding:10px; font-size: 21px;}
+
+.menu li {display: inline;  padding: 30px; color:white; border-right: solid 1px;}
+
+/* <------------------------> */
+
+/* Sidebar*/
+
+ul.sidebar  {color:#4C4C4C; line-height: 20px; font-size: 16px;}
+
+/* <------------------------> */
+
+/* Typography */
+
+h1 {font-weight: 300; color:crimson; }
+
+#slogan {font-size:16px; color:black;}
+
+h3 {font-size: 30px; font-weight: 300; line-height: 2px;}
+
+h3.date {color:grey; line-height: 5px;}
+h3.blogtitle {line-height: 5px;}
+
+p { font-size: 16px; font-weight: 200; line-height: 20px;}
+
+span.continue {color:crimson; float:right; font-weight: 600; }
+
+span.bullet {color: crimson;}
+
+a {color:crimson; text-decoration: none;}
+
+
+
+/* <------------------------> */
+
+/* Structure/layout */
+
+article {margin-bottom: 40px; margin-right: 40px;}
+
+article.blog {margin-bottom: 40px; margin-right: 40px; border-bottom: 1px solid;
+padding-bottom: 30px;}
+
+.LeftColumn {float:left; display: block; max-width: 640px;}
+
+.RightColumn {float:left; max-width: 320px; display: block;}
+
+/* <------------------------> */
+
+/* Images*/
+
+img.banner {max-width:100%;}
+
+img {max-width:100%;}
+
+/* <------------------------> */
+
+
+/* Media Queries */
+
+@media screen and (max-width:959px) {
+
+    .LeftColumn {max-width:100%; margin-left:40px;}
+ 
+ .RightColumn {max-width:100%; margin-left:40px;}
+
+h1 {margin-left: 40px;}
+ 
+.menu li {display: inline;  padding: 30px; color:white; border:none; line-height: 40px;}
+}
+
+h3.blogtitle {line-height: 30px;}
+}
+
+/* <------------------------> */
