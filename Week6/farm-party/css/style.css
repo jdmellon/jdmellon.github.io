@@ -1,0 +1,57 @@
+/*General*/
+
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	background: url(../images/cloud_2.gif);
+	margin: 0 0 100px;
+}
+
+ /*Layout*/
+ .container{
+	width: 100%;
+
+
+}
+
+#ground{
+	background: green;
+	position: fixed;
+	left: 0;
+	bottom:0;
+	height: 100px;
+	width: 100%;
+
+}
+
+
+section{
+	padding-top: 15%;
+}
+
+
+/*Typography*/
+h1{
+	font-family: 'Tienne', serif;
+	font-weight: 700;
+	font-size: 100px;
+	text-align: center;
+	color: #3F2C1F;
+	line-height: 100px;
+
+}
+
+/*Gifs*/
+.animal#first{
+	margin-left: 100px;
+	float: left;
+}
+
+#second{
+	float:right;
+	margin-right: 100px;
+
+}

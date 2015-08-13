@@ -6,24 +6,29 @@ $(document).ready(function(){
 
 // Add 10	
 $("#a10").click(function(){
+
+	total = total+10
 		$("#out")
-	 		.html(10);
+	 		.html(total);
 	 });
 
 // Add 20
  $("#a20").click(function(){
+ 	total = total+20
 		$("#out")
-	 		.html(20);
+	 		.html(total);
 	 });
 
 // Add 30
 $("#a30").click(function(){
+	total = total+30
 		$("#out")
-			.html(30);
+			.html(total);
 	});
 
 // Change Background Color to Red
 $("#red").click(function(){
+
 		$("#out")
 			.css("background-color","red");
 	});
@@ -36,26 +41,30 @@ $("#blue").click(function(){
 
 // Subtract 10
 $("#n10").click(function() {
+	total = total-10
 		$("#out")
-			.html(-10);
+			.html(total);
 	});
 
 // Subtract 20
 $("#n20").click(function() {
+	total = total-20
 		$("#out")
-			.html(-20);
+			.html(total);
 	});
 
 // Subtract 30
 $("#n30").click(function() {
+		total = total-30
 		$("#out")
-			.html(-30);
+			.html(total);
 	});
 
 // Reset Calculator
 $("#out").click(function() {
+		total = 0
 		$("#out")
-			.html(0)
+			.html(total)
 			.css("background-color", "white");
 	});
 
