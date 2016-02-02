@@ -76,7 +76,7 @@ section #hero{
 }
 
 #firstproject{
-	background: url("images/KantarMedia1.jpg");
+	background: url("../images/KantarMedia1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -86,7 +86,7 @@ section #hero{
 }
 
 #secondproject{
-	background: url("images/JackHanna1.jpg");
+	background: url("../images/JackHanna1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -94,7 +94,7 @@ section #hero{
 }
 
 #thirdproject{
-	background: url("images/Recess1.jpg");
+	background: url("../images/Recess1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -102,7 +102,7 @@ section #hero{
 }
 
 #fourthproject{
-	background: url("images/MorningRitual1.jpg");
+	background: url("../images/MorningRitual1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -110,7 +110,7 @@ section #hero{
 }
 
 #fifthproject{
-	background: url("images/MemoryTrain1.jpg");
+	background: url("../images/MemoryTrain1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
