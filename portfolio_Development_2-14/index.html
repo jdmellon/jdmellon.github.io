@@ -1,28 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
 	<title>Design Portfolio of Jeremy Mellon</title>
 	<meta name="viewport" content="initial-scale=1">
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/small.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/slicknav.css" />
+	<link rel="stylesheet" href="css/slicknav.css" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<!-- this goes inside the header tag-->
 	
-	<!--[if lt IE 9]>
-      	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      	<link rel="stylesheet" href="css/ie.css">
-   	 <![endif]-->
-	<script src="javascript/responsive-nav.js"></script>
+	
+	
 	
 	<script src="https://use.typekit.net/htl0bem.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </head>
 <body>
+
+<nav class="navbar-mini-menu">
+			  <div class="menu-select"> <span class="menu-actual"> Menu </span> <span class="btn-select"> </span> </div>
+			  <ul class="mini-menu-options">
+			    <li><a>Home</a></li>
+			    <li tabIndex="0"><a>Menu 1</a></li>
+			    <li tabIndex="0"><a>Menu 2</a>
+			      <ul class="submenu five">
+			        <li><a>Submenu 1</a></li>
+			        <li><a>Submenu 2</a></li>
+			      </ul>
+			    </li>
+			    <li tabIndex="0"><a>Menu 3</a></li>
+			    <li tabIndex="0"><a>About</a>
+			      <ul class="submenu five">
+			        <li><a>Contact me</a></li>
+			        <li><a>About me</a></li>
+			      </ul>
+			    </li>
+			  </ul>
+		</nav>
 	<div class="container">
 	<section>
 		<div id="hero">
@@ -44,20 +61,32 @@
 
 		</div></section>
 
-		
-			<header>
-      <a href="#home" class="logo" data-scroll>Fixed Nav</a>
-      <nav class="nav-collapse">
-        <ul>
-          <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
-          <li class="menu-item"><a href="#about" data-scroll>About</a></li>
-          <li class="menu-item"><a href="#projects" data-scroll>Projects</a></li>
-          <li class="menu-item"><a href="#blog" data-scroll>Blog</a></li>
-        </ul>
-      </nav>
-    </header>
 
-			
+
+		<div id="main">
+			<header>
+
+
+				
+  
+  			
+  			<div class="menu"><div class="menu-padding"><div id="page-header">
+
+	<div class="logo"><img src="images/logo.png"></div>
+		<nav id="main-nav">
+		<a href="portfolio.html">Portfolio </a><strong>/</strong>
+		<a href="#">About </a><strong>/</strong>
+		<a href="resume.html">R&eacute;sum&eacute; </a><strong>/</strong>
+		<a href="contact.html">Contact</a>
+		</nav>
+
+		
+		
+		
+		</div></div></div>
+			</header>
+
+			</div>
 
 		
 		
@@ -74,7 +103,7 @@
 				<div class="description" id="alternate-desc">
 
 				<h3 class="ProjectTitle" id="AltTitle">Jack Hanna</h3>
-				<form action="http://localhost:8888/portfolio_Development_2016/JackHanna.html" method="get"><button id="alt">View Project</button></form>
+				<form action="JackHanna.html" method="get"><button id="alt">View Project</button></form>
 			</div>
 			
 		</div>	
@@ -124,23 +153,18 @@
   
 
 
-	
+
 
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-	</script>
-    
+	
+    	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	
 
     	<script type="text/javascript" src="javascript/project.js"></script>
     	<script type="text/javascript" src="javascript/smoothscroll.js"></script>
-    
-	<script src="javascript/responsive-nav.js"></script>
-	<script src="javascript/fastclick.js"></script>
-    	<script src="javascript/scroll.js"></script>
-   	 <script src="javascript/fixed-responsive-nav.js"></script>
-	
-	
+    	
+	<script type="text/javascript" src="javascript/html5shiv.js"></script>
+	<script type="text/javascript" src="javascript/html5shiv-printshiv.js"></script>
 	
 </body>
 </html>

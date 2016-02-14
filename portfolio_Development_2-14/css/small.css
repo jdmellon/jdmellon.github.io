@@ -23,14 +23,38 @@
 	}
 
 
-	#demo01{display: inline;}
 
-	.main-nav{
+	.navbar-mini-menu {
+	  display: block;
+	}
+
+	#main{
 		display: none;
 	}
 
 
 
+
+
+
+
+@-webkit-keyframes showSubMenu {
+    0% {
+      transform: scale(0,0);
+    }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+@-webkit-keyframes hideSubMenu {
+  0% {
+    transform: scale(1,1);
+  }
+  100% {
+    transform: scale(0,0);
+  }
+}
 	
 }
 

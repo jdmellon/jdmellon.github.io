@@ -76,7 +76,7 @@ section #hero{
 }
 
 #firstproject{
-	background: url("http://localhost:8888/portfolio_Development_2016/images/KantarMedia1.jpg");
+	background: url("../images/KantarMedia1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -86,7 +86,7 @@ section #hero{
 }
 
 #secondproject{
-	background: url("http://localhost:8888/portfolio_Development_2016/images/JackHanna1.jpg");
+	background: url("../images/JackHanna1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -94,7 +94,7 @@ section #hero{
 }
 
 #thirdproject{
-	background: url("http://localhost:8888/portfolio_Development_2016/images/Recess1.jpg");
+	background: url("../images/Recess1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -102,7 +102,7 @@ section #hero{
 }
 
 #fourthproject{
-	background: url("http://localhost:8888/portfolio_Development_2016/images/MorningRitual1.jpg");
+	background: url("../images/MorningRitual1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -110,7 +110,7 @@ section #hero{
 }
 
 #fifthproject{
-	background: url("http://localhost:8888/portfolio_Development_2016/images/MemoryTrain1.jpg");
+	background: url("../images/MemoryTrain1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -531,10 +531,55 @@ margin-left:-30px;
 }
 
 
-/*navigation*/
+/*Navigation*/
 
-li{
-	  display: inline;
+
+
+/*Responsive Navigation*/
+
+.navbar-mini-menu {
+  background-color: #f08080;
+  display: none;
 }
 
+.navbar-mini-menu .menu-select {
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
 
+.navbar-mini-menu .menu-select .btn-select {
+  background: url("icon.png") no-repeat;
+  cursor: pointer;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 10px;
+  top: 10px;
+}
+
+.navbar-mini-menu .mini-menu-options {
+  display: block;
+}
+
+.navbar-mini-menu .mini-menu-options li {
+  display: block;
+}
+
+.navbar-mini-menu .mini-menu-options li .submenu {
+  display: none;
+}
+
+.navbar-mini-menu .mini-menu-options li:focus {
+  outline: 0;
+}
+
+.navbar-mini-menu .mini-menu-options li:focus > .submenu {
+  display: block;
+  -webkit-animation-name: showSubMenu;
+  -webkit-animation-duration: .4s;
+}
+
+.navbar-mini-menu .mini-menu-options li a {
+  display: block;
+  padding: 1rem 1.5rem;
+}
