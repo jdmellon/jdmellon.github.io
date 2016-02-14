@@ -1,0 +1,38 @@
+/* Small ----------- */
+@media only screen and (max-width : 600px) {
+
+	h1.herotext {
+		font-size: 3.161em;
+		line-height: 1.020em;
+		
+	}
+
+	#main-nav{
+		display: none;
+	}
+
+
+	section #hero{
+	  height: 800px;
+	  
+	  position: absolute;
+	  width: 100%;
+	  left: 0;
+	  top: 50%;
+	  margin-top: -355px;  /* half height */
+	}
+
+
+	#demo01{display: inline;}
+
+	.main-nav{
+		display: none;
+	}
+
+
+
+	
+}
+
+
+
