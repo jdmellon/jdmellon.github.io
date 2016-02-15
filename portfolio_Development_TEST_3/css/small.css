@@ -1,0 +1,159 @@
+/* Small ----------- */
+@media only screen and (max-width : 600px) {
+
+	h1.herotext {
+		font-size: 3.161em;
+		line-height: 1.020em;
+		
+	}
+
+	#main-nav{
+		display: none;
+	}
+
+
+	
+
+
+	.navbar-mini-menu {
+	  display: block;
+	}
+
+	#main{
+		display: none;
+	}
+
+
+/*Responsive Menu*/
+
+  .navbar-menu {
+    margin: 0;
+  }
+  
+
+  .navbar-menu .menu {
+    display: none;
+  }
+  
+  /* mini menu */
+  .navbar-mini-meu {
+    display: block;
+
+  }
+  
+
+  .navbar-mini-menu .mini-menu-options {
+    display: none;
+  }
+
+/*Animated Arrow*/
+
+.ArrowPadding{
+	
+	padding-top:15%;
+
+}
+
+.nav-arrow{
+	border-width: 40px 40px 0 40px;
+}
+
+/*Typography*/
+
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#FFFFFF;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+h3.ProjectTitle{
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+
+/*Projects*/
+
+#firstproject{
+
+	background: 
+	    /* top, transparent red, faked with gradient */ 
+	    linear-gradient(
+	      rgba(68, 65, 65, 0.7),
+	      rgba(68, 65, 65, 0.7)
+	    ),
+	   
+	url("../images/KantarMedia1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	}
+
+#secondproject{
+
+	background: 
+	    /* top, transparent red, faked with gradient */ 
+	    linear-gradient(
+	      rgba(68, 65, 65, 0.7),
+	      rgba(68, 65, 65, 0.7)
+	    ),
+	   
+	url("../images/JackHanna1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	}
+
+.description{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	color: white;
+}
+
+#alternate-desc{
+	margin:0;
+	float: none;
+}
+
+button{
+	color: #FFFFFF;
+	border: #FFFFFF 2px solid;
+}
+
+
+
+@-webkit-keyframes showSubMenu {
+    0% {
+      transform: scale(0,0);
+    }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+@-webkit-keyframes hideSubMenu {
+  0% {
+    transform: scale(1,1);
+  }
+  100% {
+    transform: scale(0,0);
+  }
+}
+	
+}
+
+
+
