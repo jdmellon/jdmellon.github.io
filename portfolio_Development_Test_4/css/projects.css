@@ -1,0 +1,108 @@
+.headerImage{
+	
+	background: 
+	    /* top, transparent red, faked with gradient */ 
+	    linear-gradient(
+	      rgba(0, 0, 0, 0.5), 
+	      rgba(0, 0, 0, 0.5)
+	    ),
+	    /* bottom, image */
+	    url("../images/JackHannaBanner.jpg");
+
+
+	display: block;
+	
+	height: 350px;
+	
+	background-repeat: no-repeat;
+	background-position: center 95px;
+	background-attachment: fixed;
+	background-size: 1200px 370px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+
+.content{
+	margin: 0;
+	padding: 100px 0 0 0;
+	background: #462a1e;
+	overflow: hidden;
+}
+
+.ProjectLeftColumn{
+	width: 30%;
+	padding-left: 12%;
+	float: left;
+	
+}
+
+.ProjectRightColumn{
+	width: 48%;
+	float: left;
+	
+	padding: 0 5%;
+
+
+
+}
+
+h1.ProjectTitle{
+	
+	color:#FFFFFF; 
+	padding: 12%;
+
+	
+	
+	}
+
+h4.ProjectSubTitle{
+	color: #FFFFFF;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .09em;
+}
+
+
+
+p.ProjectDescription{
+	color:#FFFFFF; 
+	  font-family: "neuzeit-grotesk",sans-serif;
+	 font-weight: 300;
+	 font-style: normal;
+	font-size: 1.4em;
+	line-height: 1.222em;
+	opacity: .7;
+	letter-spacing: .05em;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------*/
+
+@media only screen and (max-width : 950px) {
+
+	.ProjectLeftColumn{
+		width: auto;
+		
+	}
+
+	.ProjectRightColumn{
+		width: auto;
+
+	}
+	
+}
+
+
+
+
+
+
+
